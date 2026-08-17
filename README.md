@@ -1,7 +1,7 @@
 # LiveSplit.ASLUpdater
 A DLL component for LiveSplit that automatically checks for updates of your loaded `.asl` script
 
-# [DIRECT DOWNLOAD `LiveSplit.ASLUpdater.dll`](https://github.com/oJumpy/LiveSplit.ASLUpdater/releases/latest/download/LiveSplit.ASLUpdater.dll)
+# [DIRECT DOWNLOAD `LiveSplit.ASLUpdater.dll`](https://github.com/oJumpy/LiveSplit.ASLUpdater/releases/download/v1.0/LiveSplit.ASLUpdater.dll)
 
 ### Why?
 Whenever `.asl` scripts get updated, speedrunners usually have to manually visit GitHub, download the new `.asl` file, and replace old one with the new one. This component automatically checks your loaded `.asl` scripts on startup, will prompt you when an update is available, downloads the new version, and loads it in LiveSplit when downloaded.
@@ -39,3 +39,13 @@ To make your `.asl` script compatible with the ASL Updater, add a single header 
 ```csharp
 // UpdateUrl: https://github.com/YourUsername/YourRepository
 ```
+
+## VirusScan
+
+> [!NOTE]
+> Because this plugin is an unsigned custom `.dll` file, you can view the clean scan results showing the file is safe below:
+
+* [VirusTotal Scan Results](https://www.virustotal.com/gui/file/d1fb56db699535cba85c46863380d18104cd811b0b47c450feb6f5e5b47c3d01?nocache=1)
+* [Kaspersky OpenTip Scan Results](https://opentip.kaspersky.com/D1FB56DB699535CBA85C46863380D18104CD811B0B47C450FEB6F5E5B47C3D01/results?tab=upload)
+
+---
